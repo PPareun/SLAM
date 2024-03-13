@@ -1,0 +1,43 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 166166671618
+  files:
+  - duration:
+      nanoseconds: 166166671618
+    message_count: 6138
+    path: stage2_noisy_depth_fixed.db3
+    starting_time:
+      nanoseconds_since_epoch: 135750004046
+  message_count: 6138
+  relative_file_paths:
+  - stage2_noisy_depth_fixed.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 135750004046
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 2046
+    topic_metadata:
+      name: /carter1/depth_left
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  - message_count: 2046
+    topic_metadata:
+      name: /carter1/rgb_left
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  - message_count: 2046
+    topic_metadata:
+      name: /carter1/rgb_right
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  version: 8
